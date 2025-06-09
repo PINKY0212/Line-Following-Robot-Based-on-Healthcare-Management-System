@@ -12,16 +12,6 @@
 - **Acrylic Chassis** - With 65mm wheels
 - **Medicine Compartment**
 
-## 🔧 Technical Implementation
-```c
-// Sample Code Snippet (Direction Control Logic)
-if(left_sensor==0 && right_sensor==0) {
-  move_forward();  // Both sensors on white surface
-} 
-else if(right_sensor==1) {
-  turn_right();    // Right sensor detects line
-}
-
 ## 🏥 Healthcare Applications
 
 - Automated medicine delivery to patient beds
@@ -53,3 +43,13 @@ else if(right_sensor==1) {
 - Implement obstacle avoidance sensors
 
 - Solar charging capability
+
+## 🔧 Technical Implementation
+```c
+// Sample Code Snippet (Direction Control Logic)
+if(left_sensor==0 && right_sensor==0) {
+  move_forward();  // Both sensors on white surface
+} 
+else if(right_sensor==1) {
+  turn_right();    // Right sensor detects line
+}
