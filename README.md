@@ -15,7 +15,7 @@
 
 ## Software Used
 
-- **Keil µVision**: Embedded C programming and simulation
+- **Proteus**: Embedded C programming and simulation
 - **EasyEDA**: Circuit design and PCB layout
 - **Embedded C**: Microcontroller programming
 
