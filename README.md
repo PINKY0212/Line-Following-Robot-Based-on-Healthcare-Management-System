@@ -10,7 +10,14 @@
 - **IR Sensor Array** (2x LM358 comparators) - Path detection
 - **L293D Motor Driver** - Controls 4 DC motors
 - **Acrylic Chassis** - With 65mm wheels
-- **Medicine Compartment**
+- **Medicine Box with multiple compartments**
+- **12V DC Power Supply**
+
+## Software Used
+
+- **Keil µVision**: Embedded C programming and simulation
+- **EasyEDA**: Circuit design and PCB layout
+- **Embedded C**: Microcontroller programming
 
 ## 🏥 Healthcare Applications
 
@@ -34,22 +41,16 @@
 
 - Battery Life	- 4 hours continuous use
 
-## 🚀 Future Enhancements
+## How It Works
 
-- Add RFID for patient identification
+1. **Sensors**: IR sensors detect the black line on a white surface.
+2. **Comparators**: Convert analog sensor signals into digital for microcontroller input.
+3. **Microcontroller**: Processes sensor input and controls the motors.
+4. **Motor Driver**: Drives the motors based on microcontroller instructions.
+5. **Movement**: Robot navigates the hospital floor delivering medications.
 
-- Integrate webcam for remote monitoring
+## Results
 
-- Implement obstacle avoidance sensors
-
-- Solar charging capability
-
-## 🔧 Technical Implementation
-```c
-// Sample Code Snippet (Direction Control Logic)
-if(left_sensor==0 && right_sensor==0) {
-  move_forward();  // Both sensors on white surface
-} 
-else if(right_sensor==1) {
-  turn_right();    // Right sensor detects line
-}
+- The prototype functions as expected in lab conditions.
+- Performance is reliable for basic path-following and stopping tasks.
+- Improvements can be made with additional sensors for sharper turns and better path detection.
