@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 **A smart healthcare solution** using an 8051 microcontroller-based line-following robot to automate medicine delivery in hospitals. Equipped with IR sensors and L293D motor drivers, this robot navigates pre-defined paths to transport medications between patient beds, reducing staff workload and improving efficiency.
 
-[![Watch Demo](https://drive.google.com/file/d/1A4tFDbwrXCDe3M9qZGm4LLql-2b2k7LU/view?usp=sharing))  
+[Watch Demo](https://drive.google.com/file/d/1A4tFDbwrXCDe3M9qZGm4LLql-2b2k7LU/view?usp=sharing))  
 
 ## 🛠️ Key Components
 - **8051 Microcontroller** - Brain of the system
